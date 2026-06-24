@@ -1,9 +1,9 @@
 <script setup>
-import about from '../assets/about.png'
+import about from '../assets/WhatsApp Image 2026-06-09 at 20.30.15.jpeg'
 
 const stats = [
     // {value: '+200', label: 'Clients'},
-    {value: '+7', label: 'Projet realiser'}
+    // {value: '+7', label: 'Projet realiser'}
     // {value: '+7', label: 'Years'}
     
 ]
@@ -19,8 +19,9 @@ const stats = [
                 </h2>
                 <p class="text-gray-400 text-base lg:text-lg mb-10 leading-relaxed">
                    
-                     Passionné de tech et la création de solutions numériques, je transforme des idées complexes en expériences fluides. Avec plus de 7 projets concrets à mon actif, j'allie rigueur technique et créativité pour livrer des produits qui font la différence.  <br>Mon objectif : continuer à relever des défis techniques tout en apprenant chaque jour.
+                     Passionné de tech et la création de solutions numériques, je transforme des idées complexes en expériences fluides. J'allie rigueur technique et créativité pour livrer des produits qui font la différence.  <br>Mon objectif : continuer à relever des défis techniques tout en apprenant chaque jour.
                 </p>
+                <!-- Avec plus de 7 projets concrets à mon actif,  -->
                 <div class="grid grid-cols-3 gap-6 max-w-xl">
                     <a href=""></a>
                     <div v-for="item in stats" :key="item.label" class="text-center rounded-2xl bg-[#111a3e] border border-[#1f1641] p-5 transition-all duration-300 hover:border-primary/50">

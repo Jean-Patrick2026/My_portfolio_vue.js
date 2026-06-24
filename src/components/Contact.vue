@@ -23,8 +23,8 @@ const contactInfo = [
         id:3,
         icon: Linkedin,
         title: 'LinkedIn',
-        value: 'linkdin.com/in/username',
-        link: '#',
+        value: "Konan Jean-Patrick N'guessan",
+        link: 'https://www.linkedin.com/in/konanjean-patrickn-guessan',
     },
     {
         id:4,
