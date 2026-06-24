@@ -51,7 +51,8 @@ const projects = [
                 <div v-for="project in projects" :key="project.id" class="bg-gray-800 rounded-lg overflow-hidden shadow-sm hover:shadow-lg hover:scale-105 transition-all duration-300">
                     <img :src="project.image" :alt="project.title" class="w-full h-44 object-cover hover:opacity-90 transition-opacity duration-300">
                     
-                    <a :href="project.Link" target="_blank" rel="noopener noreferrer" class="group block">>
+                    <a :href="project.Link" rel="noopener noreferrer" class="group block">
+ <!-- target="_blank" -->
                     <div class="p-4">
                         <h3 class="text-lg font-semibold text-white group-hover:primary transition-colors">
                             {{ project.title }}

@@ -26,11 +26,11 @@ import vueprcroiser from '../assets/vueprcroiser.jpeg'
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <!-- Hire me button -->
 
-                         <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:max flex justify-center">
+                         <!-- <button class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:max flex justify-center">
                             <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary border-2 border-transparent"></span>
                             <span class="relative flex items-center jusyify-center text-white"> Hire me</span>
 
-                         </button>
+                         </button> -->
 
                          <!-- Download button -->
                         <button class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
@@ -39,9 +39,9 @@ import vueprcroiser from '../assets/vueprcroiser.jpeg'
                                 <!-- <div class="scg-container">
                                     <Download :size="18" class="text-primary"/>
                                     <div class="download-loader text-white hidden">
-                                        <a href="/resume.pdf"
-                                        download="resume.pdf"
-                                        class="pl-2 text-primary"> Download resume</a>
+                                        <a href="/CV_NGUESSAN_KONAN_JEAN-PATRICK.pdf"
+                                        download="CV_NGUESSAN_KONAN_JEAN-PATRICK.pdf"
+                                        class="pl-2 text-primary"> Télécharger CV</a>
                                     </div>
                                 </div> -->
 
@@ -49,11 +49,11 @@ import vueprcroiser from '../assets/vueprcroiser.jpeg'
                                     <Download :size="18" class="text-primary"/>
                                     <div class="download-loader text-white hidden " />          
                                 </div>
-                                    <a href="/resume.pdf"
-                                    download="resume.pdf"
-                                    class="pl-2 text-primary whitespace-nowrap"> Download resume
+                                    <a href="/CV_NGUESSAN_KONAN_JEAN-PATRICK.pdf"
+                                    download="CV_NGUESSAN_KONAN_JEAN-PATRICK.pdf"
+                                    class="pl-2 text-primary whitespace-nowrap"> Télécharger CV
                                     </a>
-                                    <!-- une modifucation de  'whitespace-nowrap' pour que Download resume soit sur la meme ligne-->
+                                    <!-- une modifucation de  'whitespace-nowrap' pour que Télécharger CV soit sur la meme ligne-->
                             </div>
 <!-- 19min 48sec -->
                         </button>
