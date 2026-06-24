@@ -64,7 +64,7 @@ import vueprcroiser from '../assets/vueprcroiser.jpeg'
                     <div class="flex w-full h-96 min-h-96 lg:min-h-[none] lg:w-full lg:h-full items-center relative">
                         <div class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 rihgt-0 h-[calc(80%+20px)] bg-linear-to-tr opacity-25 from-[#0cac24] to-primary blur-2xl"></div>
                         <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-[40%_80%_80%_40%/40%_40%_80%_80%] shadow-lg border border-primary">
-                            <img :src="vueprcroiser" alt="hero" width="1000" height="auto" loading="lazy" class="w-full h-full rounded-[30%_70%_70%_30%_/30%_30%_70%_70%]">
+                            <img :src="vueprcroiser" alt="N'GUESSAN KONAN Jean-Patrick - Développeur Full-Stack" width="1000" height="auto" loading="lazy" class="w-full h-full rounded-[30%_70%_70%_30%_/30%_30%_70%_70%]">
                         </div>
                     </div>
                  </div>

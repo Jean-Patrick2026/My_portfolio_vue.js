@@ -65,7 +65,7 @@ const scrollTosection = (href) => {
                     </button>
                 </li>
                 <li class="pt-6">
-                    <button @click="scrollToSection('#contact')" class="w-full bg-primary text-white py-4 rounded-xl text-lg font-bold">
+                    <button @click="scrollTosection('#contact')" class="w-full bg-primary text-white py-4 rounded-xl text-lg font-bold">
                         Contact Me
                     </button>
                 </li>

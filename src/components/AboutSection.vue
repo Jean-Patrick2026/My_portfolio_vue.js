@@ -39,7 +39,7 @@ const stats = [
                 <div class="relative w-64 h-64 md:w-96 md:h-120">
                     <div class="absolute inset-0 z-0 rounded-full shadow-lg border border-primary translate-x-4 translate-y-4"></div>
                     <div class="relative z-10 w-full h-full bg-[#111a3e] rounded-full overflow-hidden border border-[#1f1641] ">
-                        <img :src="about" alt="About Me" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img :src="about" alt="A propos de Jean-Patrick N'GUESSAN KONAN, Développeur Web" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                 </div>
              </div>
