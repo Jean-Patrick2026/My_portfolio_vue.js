@@ -46,11 +46,11 @@ const educationData = [
 <template>
     <section class="text-white py-20 overflow-hidden" id="education">
         <div class="max-w-7-xl mx-auto px-6 lg:px-16">
-            <div class="mb-16">
+            <div class="mb-16 flex flex-col items-center">
                 <p class="text-primary text-sm upppercase mb-2 tracking-widest font-semibold">Learning Path</p>
                 <h2 class="text-4xl md:text-5xl font-extrabold text-white">Education</h2>
             </div>
-            <div class="flex flex-col lg:flex-row items-center gap-16">
+            <div class="flex flex-col justify-center lg:flex-row items-center gap-16">
                 <!-- <div class="w-full lg:w-5/12 flex justify-center lg:justify-start data-aos=fade-right">
                     <div class="relative">
                         <div class="absolute h-full w-full z-0 p-2 translate-x-4 translate-y-4 rounded-2xl shadow-lg border border-primary"></div>
@@ -60,7 +60,7 @@ const educationData = [
                     </div>
                 </div> -->
                 <!-- Education Content -->
-                <div class="w-full lg:w-7/12 space-y-6" data-aos="fade-left">
+                <div class="w-full lg:w-7/12 space-y-6 " data-aos="fade-left">
                    <div v-for="edu in educationData" :key="edu.id" class="group relative p-4 sm:p-6 rounded-2xl bg-[#1f1641] transition-all duration-300 hover:border-primary/50">
                         <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-4 mb-4">
 

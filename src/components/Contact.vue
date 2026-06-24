@@ -68,15 +68,11 @@ const handleSubmit = async () => {
                 </h2>
                 <div class="w-28 h-1 bg-primary mx-auto mt-2 rounded-2xl"></div>
             </div>
-            <div class="flex ">
+            <div class="flex flex-col sm:flex-row gap-8">
             <div class="grid md:grid-cols-1 gap-8 ">
-                <div>
+                <div class="">
                     <p class="text-gray-400 mb-8 leading-relaxed">
-                        Lorem ipsum dolor sit amet consectetur adipisicing
-                         elit. Necessitatibus pariatur aperiam placeat magna
-                         m commodi sunt eos maxime veritatis, ab voluptatibus v
-                         elit alias sapiente recusandae quibusdam deserunt explicabo
-                          illum perspiciatis repudiandae.
+                        Que vous soyez une startup en plein lancement ou une entreprise établie cherchant à optimiser son empreinte digitale, je vous accompagne de la conception à la mise en ligne. Discutons de vos idées, relevons vos défis techniques et transformons ensemble vos idées en projet concrets. 
                     </p>
                     <div class="space-y-6">
                         <div v-for="info in contactInfo" ;key="info.id" class="flex items-center gap-4 group">
